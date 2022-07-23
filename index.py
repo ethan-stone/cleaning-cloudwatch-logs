@@ -5,7 +5,7 @@ import json
 cloudwatch_logs = boto3.client('logs')
 
 CURRENT_TIME_IN_MILLIS = int(round(time.time() * 1000))
-MAX_DAYS = 1000 
+MAX_DAYS = 30 
 
 def delete_logs_groups(log_groups):
     for log_group in log_groups:
