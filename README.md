@@ -36,3 +36,4 @@
 10. Afterwards click review Policy in the bottom right. Then on the next page select a name for the policy, then click Create Policy.
 11. Finally you can test the function. Navigate back to the functions page and select the test tab. Configure a test event as shown in the picture. Most importantly the event should be a JSON object with a key `mode`, where the value is either `DISPLAY` or `DELETE`
 ![image](https://user-images.githubusercontent.com/46607985/180626089-57634128-ba69-4709-9770-e544f23c27eb.png)
+12. If you select DISPLAY as the mode and run the test event and it succeeds. You can go to the Monitor tab, then view the logs in Cloudwatch to see the log groups that would be deleted if you select DELETE as the mode.
