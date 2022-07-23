@@ -7,3 +7,20 @@
 5. Then go to the Configuration tab and select Permissions. Then click on the link in the section labeled Execution role.
 6. This should bring you to the IAM policy for the function. Under the section labeled Permissions policies, click Add perimssion, and then select Create inline policy
 7. Copy and paste the inline policy below in the JSON editor
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "logs:DeleteLogGroup",
+                "logs:DescribeLogGroups",
+                "logs:DescribeLogStreams"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        }
+    ]
+}
+```
