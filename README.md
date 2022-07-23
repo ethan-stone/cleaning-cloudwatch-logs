@@ -1,6 +1,7 @@
 # Setup Steps
 
 1. Navigate to lamda service in aws by searching for lambda in the search bar.
+![image](https://user-images.githubusercontent.com/46607985/180625874-5b139982-394c-42e6-9d6a-67ed4aed9a02.png)
 2. Select Functions in the left navigate bar and select Create Function.
 3. Choose a function name, select python3.9 as the runtime and x86_64 as the architecture. Other settings can remain the default. Click Create.
 4. Afterwards you should be brought to the page for the new function. Under Code select Upload from and upload the zip file provided.
