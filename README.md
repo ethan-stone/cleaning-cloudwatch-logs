@@ -31,4 +31,4 @@
 ```
 9. Afterwards click review Policy in the bottom right. Then on the next page select a name for the policy, then click Create Policy.
 10. Finally you can test the function. Navigate back to the functions page and select the test tab. Configure a test event as shown in the picture. Most importantly the event should be a JSON object with a key `mode`, where the value is either `DISPLAY` or `DELETE`
-![image](https://user-images.githubusercontent.com/46607985/180626050-fc65f039-daf9-413b-8f83-73bcf2cb2683.png)
+![image](https://user-images.githubusercontent.com/46607985/180626089-57634128-ba69-4709-9770-e544f23c27eb.png)
